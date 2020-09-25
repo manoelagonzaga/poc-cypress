@@ -1,0 +1,17 @@
+{
+  "name": "meu-rh",
+  "version": "1.0.0",
+  "description": "automação meu rh com cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy-open": "cypress open"
+  },
+  "author": "@manoelagonzaga",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cypress": "^1.1.3",
+    "cypress": "^5.2.0",
+    "typescript": "^4.0.3"
+  }
+}
