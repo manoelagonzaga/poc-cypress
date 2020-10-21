@@ -7,7 +7,7 @@ const home = new HomePage();
 describe('Dado que estou acessando o Meu RH com perfil de Líder', () => {
   before(() => {
     utils.mobileView('iphone-x');
-    utils.navigateToUrl("http://40.79.251.95:8081/#/home");
+    utils.navigateToUrl('url');
     utils.login(users.protheus);
   });
 
